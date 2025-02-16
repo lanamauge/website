@@ -1,0 +1,66 @@
+/*header start*/
+.wrapper{
+    padding:0% 2% 2% 2%;
+}
+
+.menu{
+    display: flex; 
+    gap: 100px; 
+    justify-content: center;
+}
+.menu h3{
+    font-family: 'Lato' , sans-serif;
+}
+
+.menu a {
+    color: #b7c7be; /* Change link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.menu a:visited {
+    color: #b7c7be; /* Prevent purple color for visited links */
+}
+
+.menu a:hover {
+    color: rgb(87, 97, 95); /* Change color on hover */
+}
+
+.menu a:active {
+    color: #b7c7be; /* Keep colour when clicked */
+}
+
+
+#name {
+    text-align: center;
+    color: #363636;
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+    margin: 10px
+}
+
+/*header end*/
+
+
+#arrow img{
+    width: 50px;
+    height: auto;
+}
+
+
+h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color: #363636;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 23px;
+    color: #363636;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #363636;
+}

@@ -1,0 +1,22 @@
+.paragraph {
+    width: 50%; /* Set paragraph container to 50% width */
+    margin-left: 0; /* Align left */
+    text-align: left; /* Left-align text */
+    padding: 0; /* Optional: remove padding */
+}
+
+.artwork {
+    display: flex;
+    gap: 50px;
+    
+}
+
+.artwork img{
+    width: 40%;
+    height: auto;
+    object-fit: contain;
+}
+
+img[src="./media/album_artwork/rain.jpg"] {
+    width: 25%;
+}

@@ -1,0 +1,28 @@
+
+.paragraph {
+    width: 50%; /* Set paragraph container to 50% width */
+    margin-left: 0; /* Align left */
+    text-align: left; /* Left-align text */
+    padding: 0; /* Optional: remove padding */
+}
+
+
+.letters {
+    display: grid;
+    grid-template-columns: repeat(6, auto); /* Ensures exactly 6 columns */
+    gap: 5px; /* Adjust spacing between images */
+    justify-content: start; /* Aligns content to the left */
+    align-items: center;
+    width: max-content;
+  }
+  
+  .letters img {
+    width: 300px; /* Adjust image size if needed */
+    height: auto;
+    display: block; /* Removes extra spacing from inline elements */
+  }
+
+  .alphabet img{
+    width: 300px;
+    height: auto;
+  }

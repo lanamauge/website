@@ -1,0 +1,27 @@
+
+.paragraph {
+    width: 50%; /* Set paragraph container to 50% width */
+    margin-left: 0; /* Align left */
+    text-align: left; /* Left-align text */
+    padding: 0; /* Optional: remove padding */
+}
+
+
+.emails {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr)); /* Responsive 5 columns */
+    gap: 10px; /* Small gap between images */
+    max-width: 90vw; /* Ensures it scales with the page width */
+    margin: auto;
+  
+}
+
+.emails img {
+    width: 100%; /* Makes images scale within grid cells */
+    height: auto;
+    display: block;
+}
+
+.row-2:nth-child(6) { grid-column: 3; } /* Image 6 below Image 3 */
+.row-2:nth-child(7) { grid-column: 4; } /* Image 7 below Image 4 */
+.row-2:nth-child(8) { grid-column: 5; } /* Image 8 below Image 5 */

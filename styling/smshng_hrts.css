@@ -1,0 +1,15 @@
+.tshirt {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px; /* Add padding to left and right */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+.tshirt img{
+    max-width:100%;
+    width: 50%;
+    height: auto;
+   
+}
